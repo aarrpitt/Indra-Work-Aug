@@ -1,5 +1,8 @@
 /*! Place your custom styles here */
 
+body{
+  margin: 0;
+}
 .bar1{
     background-color: black;
 }
@@ -54,9 +57,7 @@
   .card img {
     height: 11em;
   }
-  .card{
-
-  }
+  
   
 }
 
@@ -65,3 +66,9 @@
   margin-top: 0px;
   padding-left: 0px;
 }
+
+#sze{
+  height: 60px;
+
+}
+
