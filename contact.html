@@ -217,15 +217,20 @@
                     <div class="col-12 col-md-6 col-lg-7">
                         <div class="switchable__text mt-0">
                             <h3>Join our newsletter to get latest updates</h3>
-                            <form class="form-email" action="{{url_for('save_to_newsletter_list')}}" method="post" data-success="Thanks for Signing Up! We will keep you posted about our updates." data-error="Please provide your email address.">
+                            <form class="form-email" action="{{url_for('save_to_newsletter_list')}}" method="post"
+                                data-success="Thanks for Signing Up! We will keep you posted about our updates."
+                                data-error="Please provide your email address.">
                                 <div class="row justify-content-center">
                                     <div class="col-md-7 col-12">
-                                            <input type="email" name="newsletter-email" class="validate-required validate-email" placeholder="Email" />
+                                        <input type="email" name="newsletter-email"
+                                            class="validate-required validate-email" placeholder="Email" />
                                     </div>
-                                    <input type="hidden" id="g-recaptcha-response2" name="g-recaptcha-response">
+                                    <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
                                     <input type="hidden" name="action" value="validate_captcha">
                                     <div class="col-md-3 col-12">
-                                        <button type="submit" class="btn btn--primary type--uppercase" style="border-radius: 5px;font-weight: bold; color: #fff; cursor: pointer; border: 1px solid #fff;margin-top: 2px;">Sign Up</button>
+                                        <button type="submit" class="btn btn--primary type--uppercase"
+                                            style="border-radius: 5px;font-weight: bold; color: #fff; cursor: pointer; border: 1px solid #fff;margin-top: 2px;">Sign
+                                            Up</button>
                                     </div>
                                 </div>
                             </form>
@@ -237,50 +242,50 @@
                     <div class="col-md-12">
                         <div class="heading-block">
                             <ul class="list-inline list--hover">
-                                <li><a href="home">Home</a></li>
-                                <li><a href="aboutus">About</a></li>
-                                <li><a href="tech">Technology</a></li>
-                                <li><a href="products">Products</a></li>
-                                <li><a href="projects">Projects</a></li>
-                                <li><a href="updates">Updates</a></li>
-                                <li><a href="https://medium.com/indrawater" target="_blank">Blog</a></li>
-                                <li><a href="contact">Contact</a></li>
-                                <li><a href="vajra">VAJRA</a></li>
-                                
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about-us.html">About</a></li>
+                                <li><a href="technology.html">Technology</a></li>
+
+                                <li><a href="projects.html">Projects</a></li>
+
+                                <li><a href="contact.html">Contact</a></li>
+
                             </ul>
                         </div>
                         <div>
                             <ul class="social-list list-inline list--hover">
                                 <li><a href="https://www.linkedin.com/company/indrawater" target="_blank">
                                         <i class="socicon socicon-linkedin icon icon--xs"></i>
-                                </a></li>
+                                    </a></li>
                                 <li><a href="https://twitter.com/IndraWaterIndia" target="_blank">
                                         <i class="socicon socicon-twitter icon icon--xs"></i>
-                                </a></li>
+                                    </a></li>
                                 <li><a href="https://www.facebook.com/IndraWaterIndia" target="_blank">
-                                    <i class="socicon socicon-facebook icon icon--xs"></i>
-                                </a></li>
+                                        <i class="socicon socicon-facebook icon icon--xs"></i>
+                                    </a></li>
                                 <li> <a href="https://www.youtube.com/channel/UC85SDz2V8sXvPVPCpuXyM2A" target="_blank">
-                                    <i class="socicon socicon-youtube icon icon--xs"></i>
-                                </a></li>
+                                        <i class="socicon socicon-youtube icon icon--xs"></i>
+                                    </a></li>
                             </ul>
                         </div>
+
+                        <br>
                         <a href="contact" class="btn type--uppercase">
                             <span class="btn__text">Contact Us</span>
                         </a>
                         <div>
-                            <img class="logo" src="{{ url_for('static', filename = 'img/logo-dark.png') }}"/>
+                            <img class="logo" src="img/logo-dark.png" />
                         </div>
                         <div class="text-center">
                             <span class="type--fine-print">&copy;
                                 <span class="update-year"></span> Inphlox Water Systems Pvt Ltd.</span>
-                                <br/>
-                                <a class="type--fine-print" href="http://vectorx.co" target="_blank">Designed & Developed by VectorX</a>
+                            <br />
+
                         </div>
                     </div>
                 </div>
             </div>
-        </footer>  
+        </footer>
         
     </div>
     <!--<div class="loader"></div>-->
